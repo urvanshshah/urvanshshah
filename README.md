@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
   <a href="tel:+16026571344">
-    <img src="https://img.shields.io/badge/Phone-+1--602--657--1344-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <img src="https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </p>
 
@@ -24,13 +24,13 @@
 
 I am a **Senior Data Science Analyst and Software Development Engineer** pursuing a Master's in Data Science at Arizona State University. Skilled in Python, data analytics, and automation, I excel at solving real-world problems, enhancing decision-making, and delivering impactful results.
 
-- 🏫 **Master's in Data Science, Analytics & Engineering** @ Arizona State University (GPA: 3.9/4.0) — Graduating May 2026
+- 🏫 **Master's in Data Science, Analytics & Engineering** @ Arizona State University (GPA: 3.9/4.0) : Graduating May 2026
 - 🔬 **Research Assistant** @ Arizona State University
 - 💼 Previously @ **Microsoft · Sila Nanotechnologies · Merkle · Mahaveer Technologies**
 - 🏆 **3× National-Level Hackathon Winner** | Former Head Boy, NSS Mumbai | LinkedIn Top Voice '24
 - 🧑‍⚖️ **Mentor & Judge** @ SunHacks 2025, ASU
 - 🌎 Based in **Arizona, USA**
-- 📬 Open to **Full-Time Roles** in Data Science, Data Engineering & Software Engineering — starting May 2026
+- 📬 Open to **Full-Time Roles** in Data Science, Data Engineering & Software Engineering starting May 2026
 
 ---
 
@@ -186,18 +186,16 @@ I am a **Senior Data Science Analyst and Software Development Engineer** pursuin
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| 🔫 **ThreatScan — Weapon Detection** | Real-time weapon detection system using computer vision for surveillance and public safety | Python, TensorFlow, OpenCV, Deep Learning |
-| 🦠 **TB Global Analytics Dashboard** | Interactive global dashboard visualizing tuberculosis burden by country with drill-down analytics | Tableau, Python, Public Health Data |
-| 📚 **Book Recommendation System** | Hybrid collaborative + content-based filtering recommender engine with personalized suggestions | Python, scikit-learn, Pandas, NLP |
-| 🗺️ **Phoenix Neighborhood Geospatial Dashboard** | Geospatial analytics dashboard mapping socio-economic indicators across Phoenix neighborhoods | R, Bokeh, GIS, Geospatial Clustering |
+| 🔫 **[ThreatScan : Weapon Detection] (https://github.com/urvanshshah/visual-ai-hack)** | Real-time weapon detection system using computer vision for surveillance and public safety | Python, TensorFlow, OpenCV, Deep Learning |
+| 🦠 **[TB Global Analytics Dashboard](https://github.com/urvanshshah/Tuberculosis-Burden-by-Country-Global-Analytics-Dashboard)** | Interactive global dashboard visualizing tuberculosis burden by country with drill-down analytics | Tableau, Python, Public Health Data |
+| 📚 **[Book Recommendation System](https://github.com/urvanshshah/Book-Recommendation-System-Collaborative-Filtering-at-Scale)** | Hybrid collaborative + content-based filtering recommender engine with personalized suggestions | Python, scikit-learn, Pandas, NLP |
+| 🗺️ **[Phoenix Neighborhood Geospatial Dashboard](https://github.com/urvanshshah?tab=repositories)** | Geospatial analytics dashboard mapping socio-economic indicators across Phoenix neighborhoods | R, Bokeh, GIS, Geospatial Clustering |
 | 🤖 **[Automated Healthcare Assistant](https://github.com/urvanshshah/Automated-Healthcare-Assistant-System)** | AI-powered healthcare query and triage assistant using NLP to route patient inquiries | Python, NLP, Automation |
 | 💬 **[Discord Bot](https://github.com/urvanshshah/Discord-Bot-using-Python)** | Feature-rich Discord bot with command handling, automation triggers, and server management | Python, Discord.py |
 | 🛒 **[Amazon Database Prototype](https://github.com/urvanshshah/AmazonDatabasePrototype)** | Relational database prototype mimicking Amazon's e-commerce schema with full CRUD operations | Python, SQL, DBMS, Jupyter Notebook |
 | 💱 **[Currency Calculator (GUI)](https://github.com/urvanshshah/Currency-Calculator-using-GUI)** | Desktop GUI application for real-time currency conversion with live exchange rates | Python, Tkinter, REST API |
-| 🔬 **SciHub Anomaloscope** | Handheld color vision screening device with AI-assisted anomaly detection — research project @ ASU SciHub | Python, Signal Processing, Computer Vision |
+| 🔬 **SciHub Anomaloscope** | Handheld color vision screening device with AI-assisted anomaly detection research project @ ASU SciHub | Python, Signal Processing, Computer Vision |
 | ⚡ **Battery Simulation Pipeline** | PyBaMM-based electrochemical battery simulation model with blend anode material support for Sila Nanotechnologies | Python, PyBaMM, Data Engineering |
-| 🧑‍💼 **Cold Email Outreach Automation** | n8n pipeline integrating Hunter.io, Apollo.io, Gmail & Google Sheets for systematic hiring outreach | n8n, OpenAI API, Google Sheets, Gmail |
-| 📊 **ASU Faculty Research Matcher** | Automated scraper + AI fit-analysis tool for matching research interests to faculty profiles, saved to Sheets | Python, n8n, Claude API, Google Sheets |
 
 ---
 
