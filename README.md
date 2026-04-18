@@ -180,7 +180,7 @@ I am a **Senior Data Science Analyst and Software Development Engineer** pursuin
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| 🔫 **[ThreatScan : Weapon Detection] (https://github.com/urvanshshah/visual-ai-hack)** | Real-time weapon detection system using computer vision for surveillance and public safety | Python, TensorFlow, OpenCV, Deep Learning |
+| 🔫 **[ThreatScan : Weapon Detection](https://github.com/urvanshshah/visual-ai-hack)** | Real-time weapon detection system using computer vision for surveillance and public safety | Python, TensorFlow, OpenCV, Deep Learning |
 | 🦠 **[TB Global Analytics Dashboard](https://github.com/urvanshshah/Tuberculosis-Burden-by-Country-Global-Analytics-Dashboard)** | Interactive global dashboard visualizing tuberculosis burden by country with drill-down analytics | Tableau, Python, Public Health Data |
 | 📚 **[Book Recommendation System](https://github.com/urvanshshah/Book-Recommendation-System-Collaborative-Filtering-at-Scale)** | Hybrid collaborative + content-based filtering recommender engine with personalized suggestions | Python, scikit-learn, Pandas, NLP |
 | 🗺️ **[Phoenix Neighborhood Geospatial Dashboard](https://github.com/urvanshshah?tab=repositories)** | Geospatial analytics dashboard mapping socio-economic indicators across Phoenix neighborhoods | R, Bokeh, GIS, Geospatial Clustering |
