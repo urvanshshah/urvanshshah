@@ -1,16 +1,22 @@
-<h1 align="center">Hi, I'm Urvansh Shah 👋</h1>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00C9A7&height=220&section=header&text=Urvansh%20Shah&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Data%20Science%20Analyst%20%7C%20SWE%20%7C%20ASU%20Grad%20Student&descSize=18&descAlignY=58" />
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/urvansh-shah" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-logo?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00C9A7&center=true&vCenter=true&width=650&lines=Data+Science+%7C+Machine+Learning+%7C+Software+Engineering;MS+Data+Science+%40+Arizona+State+University;Research+Analyst+%40+SciHub+Center;Open+to+Full-Time+Roles+starting+May+2026" alt="Typing SVG" />
   </a>
-  <a href="https://urvanshshah.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />
-  </a>
-  <a href="mailto:urvanshshah9@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+
+  <p>
+    <a href="https://www.linkedin.com/in/urvansh-shah" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-logo?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    <a href="https://urvanshshah.netlify.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />
+    </a>
+    <a href="mailto:urvanshshah9@gmail.com">
+      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    </a>
+  </p>
+</div>
 
 ---
 
@@ -25,6 +31,19 @@ I am a **Senior Data Science Analyst and Software Development Engineer** pursuin
 - 🧑‍⚖️ **Mentor & Judge** @ SunHacks 2025, ASU
 - 🌎 Based in **Arizona, USA**
 - 📬 Open to **Full-Time Roles** in Data Science, Data Engineering & Software Engineering starting May 2026
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=urvanshshah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=urvanshshah&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=urvanshshah&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
 
@@ -179,7 +198,7 @@ I am a **Senior Data Science Analyst and Software Development Engineer** pursuin
 ### 🚀 Projects
 
 | Project | Description | Tech |
-|---------|-------------|------|
+|---|---|---|
 | 🔫 **[ThreatScan : Weapon Detection](https://github.com/urvanshshah/visual-ai-hack)** | Real-time weapon detection system using computer vision for surveillance and public safety | Python, TensorFlow, OpenCV, Deep Learning |
 | 🦠 **[TB Global Analytics Dashboard](https://github.com/urvanshshah/Tuberculosis-Burden-by-Country-Global-Analytics-Dashboard)** | Interactive global dashboard visualizing tuberculosis burden by country with drill-down analytics | Tableau, Python, Public Health Data |
 | 📚 **[Book Recommendation System](https://github.com/urvanshshah/Book-Recommendation-System-Collaborative-Filtering-at-Scale)** | Hybrid collaborative + content-based filtering recommender engine with personalized suggestions | Python, scikit-learn, Pandas, NLP |
@@ -193,11 +212,25 @@ I am a **Senior Data Science Analyst and Software Development Engineer** pursuin
 
 ---
 
-### 📬 Let's Connect
+### 🐍 Contribution Snake
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/urvansh-shah"><b>LinkedIn</b></a> •
-  <a href="https://urvanshshah.netlify.app/"><b>Portfolio</b></a> •
-  <a href="mailto:urvanshshah9@gmail.com"><b>urvanshshah9@gmail.com</b></a> •
-  <a href="tel:+16026571344"><b>+1-602-657-1344</b></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/urvanshshah/urvanshshah/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/urvanshshah/urvanshshah/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/urvanshshah/urvanshshah/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
+
+---
+
+<div align="center">
+  <h3>📬 Let's Connect</h3>
+  <p>
+    <a href="https://www.linkedin.com/in/urvansh-shah"><b>LinkedIn</b></a> •
+    <a href="https://urvanshshah.netlify.app/"><b>Portfolio</b></a> •
+    <a href="mailto:urvanshshah9@gmail.com"><b>urvanshshah9@gmail.com</b></a> •
+    <a href="tel:+16026571344"><b>+1-602-657-1344</b></a>
+  </p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,100:0F2027&height=100&section=footer" />
+</div>
