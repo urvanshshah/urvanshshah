@@ -212,18 +212,6 @@ I am a **Senior Data Science Analyst and Software Development Engineer** pursuin
 
 ---
 
-### 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/urvanshshah/urvanshshah/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/urvanshshah/urvanshshah/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/urvanshshah/urvanshshah/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
-
----
-
 <div align="center">
   <h3>📬 Let's Connect</h3>
   <p>
