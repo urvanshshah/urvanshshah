@@ -14,7 +14,7 @@
 
 <!-- GitAscii Interactive Terminal Hero -->
 <p align="center">
-  <img src="./gitascii.svg" alt="Urvansh Shah Terminal Dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/urvanshshah/urvanshshah/main/gitascii.svg" alt="Urvansh Shah Terminal Dashboard" width="100%" />
 </p>
 
 ---

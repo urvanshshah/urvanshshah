@@ -23,7 +23,7 @@ def generate_svg():
     svg_height = 630
 
     svg = []
-    svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_width} {svg_height}" width="100%" height="100%">')
+    svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_width} {svg_height}" width="{svg_width}" height="{svg_height}">')
     svg.append(f'''<defs>
     <style>
       .mono {{ font-family: {font_family}; }}
@@ -36,12 +36,6 @@ def generate_svg():
       .yellow {{ fill: #d29922; }}
       .green {{ fill: #3fb950; }}
       .orange {{ fill: #f0883e; }}
-      .border {{ stroke: {border_color}; stroke-width: 1; }}
-      .panel {{ fill: #0d1117; }}
-      .card-bg {{ fill: #11141a; }}
-      .progress-bg {{ fill: #21262d; }}
-      @keyframes blink {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0; }} }}
-      .cursor {{ animation: blink 1s infinite; }}
     </style>
   </defs>''')
 
@@ -59,15 +53,15 @@ def generate_svg():
     svg.append('<circle cx="44" cy="21" r="6" fill="#ffbd2e"/>')
     svg.append('<circle cx="64" cy="21" r="6" fill="#27c93f"/>')
     # Terminal title
-    svg.append(f'<text x="400" y="26" text-anchor="middle" class="mono dim" font-size="12">urvansh@asu: ~ (zsh) — 800×630</text>')
+    svg.append(f'<text x="400" y="26" text-anchor="middle" class="mono dim" font-size="12">urvansh@asu: ~ (zsh) &#x2014; 800&#xD7;630</text>')
     
     # Prompt line
     svg.append(f'<text x="24" y="72" class="mono text-main bold" font-size="14">')
-    svg.append(f'<tspan fill="{accent_color}">➜ </tspan>')
+    svg.append(f'<tspan fill="{accent_color}">&#x279C; </tspan>')
     svg.append(f'<tspan class="cyan bold">~ </tspan>')
     svg.append(f'<tspan class="dim">git:(</tspan><tspan fill="#ff7b72">main</tspan><tspan class="dim">) </tspan>')
     svg.append(f'<tspan fill="#e5e5e5">fastfetch --profile urvanshshah</tspan>')
-    svg.append(f'<tspan fill="{accent_color}" class="cursor"> █</tspan>')
+    svg.append(f'<tspan fill="{accent_color}"> &#x2588;</tspan>')
     svg.append(f'</text>')
     svg.append('</g>')
 
@@ -76,7 +70,6 @@ def generate_svg():
     svg.append('<g transform="translate(20, 95)">')
     svg.append(f'<rect width="265" height="280" rx="8" fill="#0b0e14" stroke="{border_color}" stroke-width="1"/>')
     
-    char_w = 3.65
     char_h = 7.8
     num_text_rows = len(ascii_text)
     num_color_rows = len(ascii_colors)
@@ -89,10 +82,8 @@ def generate_svg():
         num_colors_in_row = len(colors_for_row)
         line_len = len(line)
 
-        # Batch characters of the same color into tspans for rendering performance
         current_color = None
         current_chars = []
-        start_c = 0
         
         svg.append(f'<text x="8" y="{y_pos:.1f}" class="mono bold" font-size="7.2" xml:space="preserve">')
         for c_idx, ch in enumerate(line):
@@ -128,10 +119,10 @@ def generate_svg():
         ("Role", "Senior Data Science Analyst & SDE", "#58a6ff"),
         ("Education", "M.S. Data Science @ ASU (GPA: 3.9/4.0) '26", "#3fb950"),
         ("Research", "Graduate Research Assistant @ ASU", "#bc8cff"),
-        ("Experience", "Microsoft · Sila Nano · Merkle · Mahaveer", "#f0883e"),
-        ("Achievements", "3× National Hackathon Winner | Top Voice", "#d29922"),
+        ("Experience", "Microsoft \u00b7 Sila Nano \u00b7 Merkle \u00b7 Mahaveer", "#f0883e"),
+        ("Achievements", "3\u00d7 National Hackathon Winner | Top Voice", "#d29922"),
         ("Core Stack", "Python, SQL, PyTorch, Spark, AWS, Docker", "#58a6ff"),
-        ("Location", "Tempe, Arizona, USA 🌵", "#e5e5e5"),
+        ("Location", "Tempe, Arizona, USA &#x1F335;", "#e5e5e5"),
         ("Availability", "Open to Full-Time Roles (May 2026)", "#7ee787")
     ]
 
@@ -139,7 +130,7 @@ def generate_svg():
         y = 68 + i * 24
         svg.append(f'<text x="20" y="{y}" class="mono" font-size="12">')
         label_padded = f"{label:<13}"
-        svg.append(f'<tspan fill="#8b949e" font-weight="600">{label_padded}</tspan>')
+        svg.append(f'<tspan fill="#8b949e" font-weight="600">{saxutils.escape(label_padded)}</tspan>')
         svg.append(f'<tspan fill="{val_color}">{saxutils.escape(val)}</tspan>')
         svg.append('</text>')
 
@@ -155,7 +146,7 @@ def generate_svg():
     svg.append('<!-- Languages Stats Widget -->')
     svg.append('<g transform="translate(20, 390)">')
     svg.append(f'<rect width="480" height="170" rx="8" fill="#0b0e14" stroke="{border_color}" stroke-width="1"/>')
-    svg.append(f'<text x="20" y="28" class="mono bold" font-size="13" fill="{accent_color}">⚡ Top Languages &amp; Competencies</text>')
+    svg.append(f'<text x="20" y="28" class="mono bold" font-size="13" fill="{accent_color}">&#x26A1; Top Languages &amp; Competencies</text>')
     svg.append(f'<line x1="20" y1="38" x2="460" y2="38" stroke="{border_color}" stroke-width="1"/>')
 
     langs = [
@@ -182,7 +173,7 @@ def generate_svg():
         row_y = 90 + (idx // 2) * 32
         svg.append(f'<circle cx="{col_x + 5}" cy="{row_y - 4}" r="5" fill="{l_col}"/>')
         svg.append(f'<text x="{col_x + 18}" y="{row_y}" class="mono" font-size="11">')
-        svg.append(f'<tspan fill="#e5e5e5" font-weight="600">{l_name}</tspan> ')
+        svg.append(f'<tspan fill="#e5e5e5" font-weight="600">{saxutils.escape(l_name)}</tspan> ')
         svg.append(f'<tspan fill="#8b949e">({pct}%)</tspan>')
         svg.append('</text>')
 
@@ -192,7 +183,7 @@ def generate_svg():
     svg.append('<!-- Tech Stack Widget -->')
     svg.append('<g transform="translate(515, 390)">')
     svg.append(f'<rect width="265" height="170" rx="8" fill="#0b0e14" stroke="{border_color}" stroke-width="1"/>')
-    svg.append(f'<text x="16" y="28" class="mono bold" font-size="13" fill="{accent_color}">🛠️ Tech Ecosystem</text>')
+    svg.append(f'<text x="16" y="28" class="mono bold" font-size="13" fill="{accent_color}">&#x1F6E0;&#xFE0F; Tech Ecosystem</text>')
     svg.append(f'<line x1="16" y1="38" x2="249" y2="38" stroke="{border_color}" stroke-width="1"/>')
 
     tech_badges = [
@@ -211,7 +202,7 @@ def generate_svg():
         by = 52 + (idx // 2) * 26
         svg.append(f'<rect x="{bx}" y="{by}" width="112" height="20" rx="4" fill="#161b22" stroke="{border_color}" stroke-width="1"/>')
         svg.append(f'<circle cx="{bx + 10}" cy="{by + 10}" r="3.5" fill="{t_col}"/>')
-        svg.append(f'<text x="{bx + 20}" y="{by + 14}" class="mono bold" font-size="10" fill="#e5e5e5">{t_name}</text>')
+        svg.append(f'<text x="{bx + 20}" y="{by + 14}" class="mono bold" font-size="10" fill="#e5e5e5">{saxutils.escape(t_name)}</text>')
 
     svg.append('</g>')
 
@@ -220,7 +211,7 @@ def generate_svg():
     svg.append('<g transform="translate(20, 575)">')
     svg.append(f'<rect width="760" height="42" rx="8" fill="#161b22" stroke="{border_color}" stroke-width="1"/>')
     svg.append(f'<text x="20" y="26" class="mono" font-size="11">')
-    svg.append(f'<tspan fill="{accent_color}">⚡ status:</tspan> <tspan fill="#3fb950">building next-gen data &amp; AI systems</tspan>')
+    svg.append(f'<tspan fill="{accent_color}">&#x26A1; status:</tspan> <tspan fill="#3fb950">building next-gen data &amp; AI systems</tspan>')
     svg.append(f'</text>')
     svg.append(f'<text x="740" y="26" text-anchor="end" class="mono dim" font-size="11">')
     svg.append(f'<tspan fill="#8b949e">portfolio: </tspan><tspan fill="#58a6ff">urvanshshah.netlify.app</tspan>')
