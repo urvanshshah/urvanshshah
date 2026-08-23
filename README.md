@@ -12,6 +12,11 @@
   </a>
 </p>
 
+<!-- GitAscii Interactive Terminal Hero -->
+<p align="center">
+  <img src="./gitascii.svg" alt="Urvansh Shah Terminal Dashboard" width="100%" />
+</p>
+
 ---
 
 ### 🙋‍♂️ About Me
